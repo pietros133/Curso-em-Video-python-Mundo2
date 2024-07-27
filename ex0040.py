@@ -1,12 +1,12 @@
 #Declaração das Variaveis
 n1=float(input("Digite a Primeira Nota: "))
 n2=float(input("Digite a segunda Nota:"))
-# Calculo Necessario Para descobrir a média
+# Calculo da Média
 media=(n1+n2)/2
-# Verifica se o Resultado da Média é menor que Cinco
+# Verifica se o resultado da Média é menor que Cinco
 if media < 5:
     print("Estudar Mais, REPROAVADO")
-# Verifica se o resultado da média é maior que 5 e menor que Sete
+# Verifica se o resultado da média é maior que Cinco e menor que Sete
 elif 7 > media >= 5:
  print("ESTUDAR MAIS RECUPERAÇÃO")
  # Verifica se o resultado da média é maior que Sete
@@ -15,4 +15,5 @@ elif media >= 7:
 else:
     print("TU NEM É ALUNO")
 exit()
+
 
