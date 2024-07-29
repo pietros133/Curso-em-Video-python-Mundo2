@@ -1,5 +1,6 @@
 #Importação da Biblioteca datetime
 from datetime import date
+//Classificção de Atletas
 anonascimento=int(input("informe o ano em que você nasceu"))
 atual = date.today().year
 idade= atual - anonascimento
@@ -12,10 +13,9 @@ elif idade > 14 and idade <=19:
     print("Junior")
 elif idade > 19 and idade <=25:
     print("Classificação: SÊNIOR")
-elif idade > 25:
-    print("Classificação: MASTER")
 else:
-    exit()
+    print("Classificação: MASTER")
+
 
 
 
